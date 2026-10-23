@@ -4,7 +4,7 @@ game 'gta5'
 name 'qbx_properties'
 description 'Hopefully one day a feature rich property system'
 repository 'https://github.com/Qbox-project/qbx_properties'
-version '0.0.1'
+version '0.0.2'
 
 ox_lib 'locale'
 
@@ -24,6 +24,7 @@ client_scripts {
 }
 
 server_scripts {
+	'server/pn-lib-config.lua',
     '@oxmysql/lib/MySQL.lua',
     'server/apartmentselect.lua',
     'server/property.lua',
